@@ -1,0 +1,52 @@
+.container {
+    display: flex;
+    margin-bottom: 150px;
+    padding-left: 5%;
+}
+
+.top-banner {
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+.half-width {
+    width: 50%;
+}
+
+.half-width h1 {
+    font-size: 50px;
+}
+
+.half-width p {
+    font-size: 20px;
+    text-align: justify;
+}
+
+.half-width img {
+    width: 80%;
+}
+
+.top-image {
+    padding-left: 5%;
+}
+
+.dream-big {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.heading-text p {
+    padding-right: 20%;
+}
+
+.link-button {
+    background: linear-gradient(orange, tomato);
+    padding: 10px 30px;
+    /* padding: top-bottom left-right; */
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+}
