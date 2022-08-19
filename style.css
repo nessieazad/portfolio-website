@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
 .container {
     display: flex;
     margin-bottom: 150px;
@@ -49,4 +56,55 @@
     color: white;
     font-weight: 700;
     font-size: 20px;
+}
+
+.experience {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.flexible {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.experience-item {
+    width: 39%;
+    border-left: 15px solid blue;
+    border-radius: 10px;
+    padding: 40px 30px;
+    box-shadow: 0px 0px 20px grey;
+
+}
+
+.right-margin {
+    margin-right: 60px;
+    border-left: 15px solid tomato;
+}
+
+.title {
+    font-size: 60px;
+}
+
+.experience-item h1 {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.experience-item h3 {
+    font-size: 25px;
+    font-weight: 700;
+    color: orange
+}
+
+.experience-item p {
+    font-size: 20px;
+}
+
+footer p {
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
 }
